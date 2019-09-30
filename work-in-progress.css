@@ -1,6 +1,13 @@
-﻿body
+﻿html
 {
-background-color:green;
+height:100vh;
+}
+
+body
+{
+height:100vh;
+margin:0;
+padding:0;
 font-family: Tahoma,"Arial Black", Arial, Verdana, sans-serif;
 }
 
@@ -9,13 +16,30 @@ display: flex;
 flex-direction: column;
 flex-wrap: nowrap;
 align-items:center;
-vertical-align:middle;
-margin-top: 5vh;}
+justify-content:center;
+background-color:green;
+background-image:url("../work-in-progress/img/gazon-tonte.jpg");
+background-position:right top;
+background-repeat:no-repeat;
+height:75vh;
+}
 
+
+.bas{
+display: flex; 
+flex-direction: column;
+flex-wrap: nowrap;
+align-items:center;
+justify-content:center;
+background-color:green;
+height:25vh;
+margin:auto;
+padding:auto;
+}
 
 h1{
 	color:white;
-	font-size:35px;
+	font-size:2.5em;
     font-family: Tahoma;
-}
-}
+	padding:50px;
+	}
