@@ -1,0 +1,21 @@
+﻿body
+{
+background-color:green;
+font-family: Tahoma,"Arial Black", Arial, Verdana, sans-serif;
+}
+
+.principale{
+display: flex; 
+flex-direction: column;
+flex-wrap: nowrap;
+align-items:center;
+vertical-align:middle;
+margin-top: 5vh;}
+
+
+h1{
+	color:white;
+	font-size:35px;
+    font-family: Tahoma;
+}
+}
